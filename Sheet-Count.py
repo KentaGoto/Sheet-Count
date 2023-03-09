@@ -2,16 +2,13 @@ import openpyxl
 import sys
 
 
-def check_argument(arg_l, f):
+def check_argument(arg_l):
     if arg_l == 0:
         print("Script file name.")
     elif arg_l == 1:
-        print("Argument is 1.")
         return input("File: ")
     elif arg_l == 2:
-        print("Argument is 2.")
-        f = sys.argv[1]
-        return f
+        return sys.argv[1]
     else:
         print("Error: The argument can be neither 1 nor 2. Forced termination.")
         sys.exit()
@@ -19,8 +16,7 @@ def check_argument(arg_l, f):
 
 if __name__ == '__main__':
     arg_l = len(sys.argv)
-    f = ''
-    f = check_argument(arg_l, f)
+    f = check_argument(arg_l)
 
     # Loading Workbooks
     workbook = openpyxl.load_workbook(f)
