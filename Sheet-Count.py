@@ -11,11 +11,11 @@ def check_argument(arg_l):
     elif arg_l == 2:
         return sys.argv[1]
     else:
-        print("Error: The argument can be neither 1 nor 2. Forced termination.")
+        print("Error: Invalid number of arguments. Forced termination.")
         sys.exit()
 
 
-if __name__ == '__main__':    
+if __name__ == '__main__':
     arg_l = len(sys.argv)
     f = check_argument(arg_l)
 
