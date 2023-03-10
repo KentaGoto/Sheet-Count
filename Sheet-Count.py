@@ -1,5 +1,6 @@
 import openpyxl
 import sys
+import warnings
 
 
 def check_argument(arg_l):
@@ -14,11 +15,12 @@ def check_argument(arg_l):
         sys.exit()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':    
     arg_l = len(sys.argv)
     f = check_argument(arg_l)
 
     # Loading Workbooks
+    warnings.simplefilter("ignore")
     workbook = openpyxl.load_workbook(f)
 
     # Retrieve and output sheet name and number of sheets.
