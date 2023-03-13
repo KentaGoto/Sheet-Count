@@ -4,6 +4,7 @@ Excel sheet count.
 ## USAGE  
 ```pwsh  
 $ Run.bat
+> File: <FILE>
 ```
 or  
 ```cmd  
