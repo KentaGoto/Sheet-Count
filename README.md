@@ -3,7 +3,8 @@ Excel sheet count.
 
 ## USAGE  
 ```pwsh  
-$ .\Recursive-exect.ps1 -FolderPath <DIR>
+$ Run.bat
+> Dir: <DIR>
 ```
 or  
 ```cmd  
@@ -18,6 +19,7 @@ $ Sheet-Count.py
 ## REQUIRES  
 - Python 3  
 - PowerShell  
+- Batchfile  
 - Windows  
 
 ## LICENSE  
