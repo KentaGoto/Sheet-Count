@@ -15,6 +15,11 @@ $ Sheet-Count.py
 > File: <FILE>
 ```
 
+## REQUIRES  
+- Python 3  
+- PowerShell  
+- Windows  
+
 ## LICENSE  
 MIT  
 
