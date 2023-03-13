@@ -1,6 +1,7 @@
 import openpyxl
 import sys
 import warnings
+import os
 
 
 def check_argument(arg_l):
@@ -29,3 +30,5 @@ if __name__ == '__main__':
     print("Number of sheets: ", sheet_count)
     for i, sheet_name in enumerate(sheet_names, start=1):
         print("Sheet", i, ": ", sheet_name)
+    
+    os.system("pause")
