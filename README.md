@@ -2,7 +2,7 @@
 Excel sheet count.  
 
 ## USAGE  
-``` PowerShell
+``` bash
 $ .\Recursive-exect.ps1 -FolderPath <DIR>
 ```
 or  
