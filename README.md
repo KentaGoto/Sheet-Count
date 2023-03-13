@@ -1,5 +1,5 @@
 # Sheet-Count
-Excel sheet count.  
+Output the number of sheets and sheet names in the Excel file.  
 
 ## USAGE  
 ```pwsh  
