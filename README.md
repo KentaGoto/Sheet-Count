@@ -19,7 +19,7 @@ $ Sheet-Count.py
 ## REQUIRES  
 - Python 3  
 - PowerShell  
-- Batch file  
+- Batchfile  
 - Windows  
 
 ## LICENSE  
