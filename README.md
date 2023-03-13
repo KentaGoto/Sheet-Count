@@ -2,15 +2,15 @@
 Excel sheet count.  
 
 ## USAGE  
-```PowerShell  
+```pwsh  
 $ .\Recursive-exect.ps1 -FolderPath <DIR>
 ```
 or  
-```PowerShell  
+```cmd  
 $ Sheet-Count.py <FILE>
 ```
 or
-```PowerShell  
+```cmd  
 $ Sheet-Count.py
 > File: <FILE>
 ```
