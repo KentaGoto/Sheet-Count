@@ -14,3 +14,9 @@ or
 $ Sheet-Count.py
 > File: <FILE>
 ```
+
+## LICENSE  
+MIT  
+
+## AUTHOR  
+Kenta Goto
