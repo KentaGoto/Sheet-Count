@@ -27,6 +27,8 @@ if __name__ == '__main__':
     # Retrieve and output sheet name and number of sheets.
     sheet_names = workbook.sheetnames
     sheet_count = len(sheet_names)
+    print(f)
+    print("")
     print("Number of sheets: ", sheet_count)
     for i, sheet_name in enumerate(sheet_names, start=1):
         print("Sheet", i, ": ", sheet_name)
